@@ -1,0 +1,43 @@
+{
+  "name": "kanban-demo",
+  "version": "1.0.0",
+  "description": "Kanban demo app.",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "popper.js": "1.15.0",
+    "react": "16.9.0",
+    "react-dnd": "9.3.4",
+    "react-dnd-html5-backend": "9.3.4",
+    "react-dom": "16.9.0",
+    "react-redux": "7.1.1",
+    "redux": "4.0.4",
+    "reselect": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/react-dnd": "3.0.2",
+    "@types/react-redux": "7.1.2",
+    "autoprefixer": "9.6.1",
+    "css-loader": "3.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "4.12.0",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "8.0.0",
+    "source-map-loader": "0.2.4",
+    "style-loader": "1.0.0",
+    "ts-loader": "6.0.4",
+    "typescript": "3.6.2",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "3.8.0"
+  }
+}

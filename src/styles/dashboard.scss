@@ -1,0 +1,14 @@
+.dashboard {
+  &__list {
+    border: 1px black dashed;
+    padding: 5px 5px 15px 5px;
+    margin-right: 5px;
+  }
+  &__story {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  &--full-height {
+    height: 100%;
+  }
+}
